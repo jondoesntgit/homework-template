@@ -1,0 +1,69 @@
+% Homework template created by Jonathan Wheeler
+% for use at Stanford University.
+%
+% Adapted from a jhwhw.cls file I found on
+% github.
+%
+% In sublime, use Cmd-L, backspace to 
+% clear auxiliary files 
+
+\documentclass[notitlepage]{jmwhw}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[parfill]{parskip}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[euler]{textgreek}
+\usepackage{multicol}
+\usepackage{siunitx}
+\usepackage{subcaption}
+
+\pgfplotsset{compat=1.13}
+\usetikzlibrary{decorations.pathmorphing,shapes}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{calc}
+
+\author{Jonathan Wheeler} %TODO
+\title{sample} %TODO
+
+
+\begin{document}
+% Used in syntax highlighting
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+
+\begin{titlepage}
+	\begin{center}
+		{\Large sample} % TODO
+		
+		\bigskip
+
+		\begin{tabular}{rl}
+			SUNet ID: & 12345678 \\ % TODO
+			Name: & Jonathan Wheeler (jamwheel@stanford.edu) \\ % TODO
+			Collaborators: & $\varnothing$
+		\end{tabular}
+
+		\bigskip
+
+	\end{center}
+
+	\toccontents
+
+	\vfill
+
+	\begin{center}
+		\parbox{10cm}{
+		By turning in this assignment, I agree by the Stanford honor code and
+		declare that all of this is my own work.
+		}
+	\end{center}
+\end{titlepage}
+
+% TODO
+\input{problems/problem1}
+\input{problems/problem2}
+
+\end{document}
