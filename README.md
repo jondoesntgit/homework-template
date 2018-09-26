@@ -1,7 +1,7 @@
 # Jonathan Wheeler's LaTeX Homework Template
 
 This is a template that I use to do my homework writeups at Stanford University. It was forked off of [this template](https://gist.github.com/seldonPlan/3420170)
-
+Check out the compiled .pdf file. If you like it, and start using it, please leave a star on GitHub so that others can find this too!
 
 ## Installation
 
