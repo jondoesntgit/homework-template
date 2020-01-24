@@ -71,7 +71,7 @@
 
 \newcommand*{\anyproblem}[1]{\newpage\section*{#1} \addcontentsline{toc}{chapter}{#1}}
 \newcommand*{\problem}[1]{\stepcounter{ProblemNum} %
-   \anyproblem{Problem \theProblemNum. \; #1}}
+   \anyproblem{Problem \theProblemNum. #1}}
 
 \newcommand*{\subproblem}{
 \stepcounter{SubProblemNum}
